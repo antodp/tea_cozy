@@ -1,0 +1,101 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    display: block;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+}
+
+#logo img {
+    position: absolute;
+    left: 10px;
+    height: 50px;
+    width: auto;
+}
+
+h4 {
+    font-size: 0.7rem;
+}
+
+nav {
+    display: flex;
+    align-content: center;
+    height: 100%;
+    justify-content: space-between;
+    width: 30%;
+    float: right;
+    margin-right: 10px;
+}
+
+nav p {
+    text-decoration: underline;
+    flex-flow: row nowrap;
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#mission {
+    background-image: url("./resources/img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+#mission div {
+    background-color: rgba(0, 0, 0, 1);
+    padding: 0;
+    height: auto;
+    width: 100%;
+    z-index: 2;
+    vertical-align: middle;
+}
+
+#mission div h2 {
+    background-color: rgba(0,0,0,1);
+}
+
+#mission div h4 {
+    background-color: rgba(0,0,0,1);
+}
+
+#content {
+    width: 1000px;
+}
+
+#images {
+    width: 100%;
+    display: flex;
+    align-content: flex-start;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    flex: 1 1 auto;
+}
+
+#images .image {
+    flex: 1 1 auto;
+    max-width: 30%;
+}
+
+#images .image img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+#images .image h4 {
+    margin-top: 10px;
+}
